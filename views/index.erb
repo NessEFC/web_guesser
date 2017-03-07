@@ -1,12 +1,16 @@
 <html>
-  <head></head>
-  <body>
-    <form>
-      <input type='text' name='guess' />
-      <input type='submit' value='Guess!' />
-    </form>
-    <p>
-      <%= message %>
-    </p>
-  </body>
+  <head>
+    <style>
+      body {
+        background: <%= color %>;
+      }
+    </style>
+  </head>
+  <form>
+    <input type='text' name='guess' />
+    <input type='submit' value='Guess!' />
+  </form>
+  <p>
+    <%= message %>
+  </p>
 </html>
